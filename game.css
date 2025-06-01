@@ -503,8 +503,12 @@ html, body {
     background-color: darkgreen;
     color:azure;
 }
-
-.BgGallery,.settingImg{
+.BgGallery{
+    display: none;
+    position: absolute;
+    top: -460px;
+}
+.settingImg{
     display: none;
     position: absolute;
     top: -60px;
@@ -547,8 +551,6 @@ html, body {
 }
 
 .Background{
-    position: absolute;
-    top: 30px;
     left: 20px;
     width: 300px;
     height: 300px;
@@ -731,7 +733,7 @@ html, body {
     display: none;
     flex-direction: row;
     justify-content: center;
-    top: -380px;
+    top: -450px;
     width: 780px;
     height: 580px;
     padding: 10px;
