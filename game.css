@@ -10,6 +10,8 @@ html, body {
 }
 
 .page1{
+    position: relative;
+    top: -100px;
     display: none;
     width: 1398px;
     height: 960px;
@@ -105,7 +107,7 @@ html, body {
 .container1{
     position: relative;
     left: 68.07px;
-    top: 220.16px;
+    top: 300.16px;
     transform: rotate(-14.68deg);
     
 }
@@ -181,10 +183,12 @@ html, body {
 /*-----------------------------------------------------------------------------*/
 
 .page2{
+    position: relative;
     display: none;; 
     width: 1398px;
     height: 960px;
     opacity: 80%;
+    top: -100px;
     background: #ebeef0;
     background-image: linear-gradient(90deg,rgba(235, 238, 240, 1) 0%, rgba(237, 228, 228, 1) 47%, rgba(115, 106, 106, 1) 100%);
     position: relative;  
@@ -202,10 +206,14 @@ html, body {
     gap: 80px;
     margin-left: 100px;
     width: 680px;
+    
 }
 
 .page2-subpage{
     display: none;
+    position: absolute;
+    top: 100px;
+    left: 50px;
 }
 
 .page2-subpage.active{
@@ -230,7 +238,7 @@ html, body {
 }
 
 .computer img,.friend img{
-    margin-top: -50px;
+    margin-top: -10px;
     margin-bottom: 50px;
 }
 
@@ -260,8 +268,8 @@ html, body {
     width: 830px;
     height: 830px;
     padding: 20px;
-    top: -100px;
-    left: 125px;
+    top: -70px;
+    left: 130px;
     border-radius: 10%;
     box-shadow: -0px -0px 10px  black;
 }
@@ -274,6 +282,7 @@ html, body {
     color: #212121;
     font-weight: 900;
     font-weight: bolder;
+    top: 120px;
 }
 
 /*-----------------------------------------------------------------------------------------------------------*/
@@ -408,7 +417,7 @@ html, body {
 .settingContainer{
     position: absolute;
     left: 50px;
-    top: 650px;
+    top: 750px;
 }
 
 .back{
@@ -466,7 +475,7 @@ html, body {
 
 .BgGallery{
     position: absolute;
-    top: -450px;
+    top: -380px;
     width: 620px;
     height: 580px;
     padding: 10px;
@@ -486,7 +495,7 @@ html, body {
 
 .back{
     position: fixed;
-    top: 700px;
+    top: 710px;
     left: 250px;
 }
 
@@ -497,6 +506,8 @@ html, body {
 
 .BgGallery,.settingImg{
     display: none;
+    position: absolute;
+    top: -60px;
 }
 
 .BgGallery.active,
@@ -586,7 +597,7 @@ html, body {
 
 .Avtar{
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     right: 20px;
     width: 300px;
     height: 300px;
@@ -656,7 +667,7 @@ html, body {
 
 .backOption2{
     position: fixed;
-    top: 765px;
+    top: 700px;
     left: 50px;
     width: 100px;
     height: 45px;
@@ -720,7 +731,7 @@ html, body {
     display: none;
     flex-direction: row;
     justify-content: center;
-    top: -450px;
+    top: -380px;
     width: 780px;
     height: 580px;
     padding: 10px;
@@ -1155,3 +1166,11 @@ html, body {
     box-shadow: 0 0 15px rgba(221, 14, 14, 0.3);
     text-shadow:10px 10px 10px rgb(89, 33, 33);
 }
+
+
+
+
+
+/*Media-querry*/
+
+/* --------- MOBILE VIEW STYLES --------- */
